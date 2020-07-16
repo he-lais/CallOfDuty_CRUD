@@ -1,3 +1,4 @@
+from classes.database import Database
 from classes.game import Game
 
 class Main:

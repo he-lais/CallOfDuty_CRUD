@@ -23,7 +23,7 @@ class Player:
 
     #Descrição do meu objeto
     def __str__(self):
-        return f'Jogador: [{self.gamertag}]\n' \
+        return f'Jogador: {self.gamertag}\n' \
                f'Senha: {self.password} \n' \
                f'Vitórias: {self.total_wins} \n' \
                f'Loadout favorito: {self.favorite_loadout} \n' \

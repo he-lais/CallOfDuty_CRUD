@@ -174,3 +174,8 @@ class Database:
             except EOFError as eof:
                 print(str(eof))
                 return False
+
+'''
+db = Database()
+db.create('Laís Helena', 123)
+'''
